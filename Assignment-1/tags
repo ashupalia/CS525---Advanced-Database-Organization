@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+RC_message	dberror.c	/^char *RC_message;$/;"	v
+TESTPF	test_assign1_1.c	14;"	d	file:
+appendEmptyBlock	storage_mgr.c	/^extern RC appendEmptyBlock (SM_FileHandle *fHandle) {$/;"	f
+assertHandle	storage_mgr.c	/^extern assertHandle(SM_FileHandle *fHandle) {$/;"	f
+assertInit	storage_mgr.c	/^extern RC assertInit(SM_FileHandle *fHandle, SM_PageHandle memPage) {$/;"	f
+assertMempage	storage_mgr.c	/^extern assertMempage(SM_PageHandle memPage) {$/;"	f
+assertPageBounds	storage_mgr.c	/^extern RC assertPageBounds(int PageNum, int lowerBound, $/;"	f
+closePageFile	storage_mgr.c	/^extern RC closePageFile (SM_FileHandle *fHandle)    {$/;"	f
+createPageFile	storage_mgr.c	/^extern RC createPageFile(char *fileName)   {$/;"	f
+destroyPageFile	storage_mgr.c	/^extern RC destroyPageFile (char *fileName)    {$/;"	f
+ensureCapacity	storage_mgr.c	/^extern RC ensureCapacity (int numberOfPages, SM_FileHandle *fHandle) {$/;"	f
+errorMessage	dberror.c	/^errorMessage (RC error)$/;"	f
+fileExists	storage_mgr.c	/^extern int fileExists(char *fileName) {$/;"	f
+getBlockPos	storage_mgr.c	/^extern int getBlockPos (SM_FileHandle *fHandle) {$/;"	f
+initStorageManager	storage_mgr.c	/^extern void  initStorageManager(void) {$/;"	f
+main	test_assign1_1.c	/^main (void)$/;"	f
+openPageFile	storage_mgr.c	/^extern RC openPageFile (char *fileName, SM_FileHandle *fHandle) {$/;"	f
+printError	dberror.c	/^printError (RC error)$/;"	f
+readBlock	storage_mgr.c	/^extern RC readBlock (int pageNum, $/;"	f
+readCurrentBlock	storage_mgr.c	/^extern RC readCurrentBlock(SM_FileHandle *fHandle,$/;"	f
+readFirstBlock	storage_mgr.c	/^extern RC readFirstBlock (SM_FileHandle *fHandle, $/;"	f
+readLastBlock	storage_mgr.c	/^extern RC readLastBlock (SM_FileHandle *fHandle, SM_PageHandle memPage) {$/;"	f
+readNextBlock	storage_mgr.c	/^extern RC readNextBlock (SM_FileHandle *fHandle, $/;"	f
+readPreviousBlock	storage_mgr.c	/^extern RC readPreviousBlock(SM_FileHandle *fHandle, $/;"	f
+startRead	storage_mgr.c	/^extern RC startRead(int pageNum, $/;"	f
+startWrite	storage_mgr.c	/^extern RC startWrite(int pageNum, $/;"	f
+testCreateOpenClose	test_assign1_1.c	/^testCreateOpenClose(void)$/;"	f
+testName	test_assign1_1.c	/^char *testName;$/;"	v
+testSinglePageContent	test_assign1_1.c	/^testSinglePageContent(void)$/;"	f
+writeBlock	storage_mgr.c	/^extern RC writeBlock (int pageNum, $/;"	f
+writeCurrentBlock	storage_mgr.c	/^extern RC writeCurrentBlock(SM_FileHandle *fHandle,$/;"	f

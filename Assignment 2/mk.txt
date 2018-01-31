@@ -1,0 +1,3728 @@
+
+++++++++++ITERATION:	0+++++++++++++++
+
+Pinning this pageNum:0, page->pageNum:0
+
+
+TEST
+
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:0 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0
+++++++++++ITERATION:	1+++++++++++++++
+
+Pinning this pageNum:1, page->pageNum:1
+
+appendsuccessful
+
+
+TEST
+
+RE-INIT SUCCESS
+
+new_elt->key:1after inserting frame number:1 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0
+
+bucket 1:
+key :1 Frame Number:1
+++++++++++ITERATION:	2+++++++++++++++
+
+Pinning this pageNum:2, page->pageNum:2
+
+appendsuccessful
+
+
+TEST
+
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:2 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0
+
+bucket 1:
+key :1 Frame Number:2
+key :1 Frame Number:1error in print
+[test_assign2_1.c-Creating and Reading Back Dummy Pages-L72-03:22:50] OK: finished test
+
+READ
+
+Pinning this pageNum:0, page->pageNum:0
+
+
+TEST
+
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:0 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0new read
+NON NULL
+
+Frame was present and Queue is 
+last added frame value is :0 and fixcount :0
+Entered
+line:258done
+Condition 2
+queue content inside shutdown
+[test_assign2_1.c-Reading a page-L151-03:22:50] OK: finished test
+
+error before fifo
+inside fifo
+
+++++++++++ITERATION:	0+++++++++++++++
+
+Pinning this pageNum:0, page->pageNum:0
+
+
+TEST
+
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:0 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0
+++++++++++ITERATION:	1+++++++++++++++
+
+Pinning this pageNum:1, page->pageNum:1
+
+appendsuccessful
+
+
+TEST
+
+RE-INIT SUCCESS
+
+new_elt->key:1after inserting frame number:1 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0
+
+bucket 1:
+key :1 Frame Number:1
+++++++++++ITERATION:	2+++++++++++++++
+
+Pinning this pageNum:2, page->pageNum:2
+
+appendsuccessful
+
+
+TEST
+
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:2 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0
+
+bucket 1:
+key :1 Frame Number:2
+key :1 Frame Number:1
+++++++++++ITERATION:	3+++++++++++++++
+
+Pinning this pageNum:3, page->pageNum:3
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :0 and fixcount :0
+yesframe we deque'd is: 0
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :0
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:3 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:3
+
+bucket 1:
+key :1 Frame Number:2
+key :1 Frame Number:1
+++++++++++ITERATION:	4+++++++++++++++
+
+Pinning this pageNum:4, page->pageNum:4
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :1 and fixcount :0
+yesframe we deque'd is: 1
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :2
+pfMap[1]
+ stores frame number :1
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:4 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:3
+
+bucket 1:
+key :1 Frame Number:4
+key :1 Frame Number:2
+++++++++++ITERATION:	5+++++++++++++++
+
+Pinning this pageNum:5, page->pageNum:5
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :2 and fixcount :0
+yesframe we deque'd is: 2
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :4
+pfMap[1]
+ stores frame number :2
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:5 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:3
+
+bucket 1:
+key :1 Frame Number:5
+key :1 Frame Number:4
+++++++++++ITERATION:	6+++++++++++++++
+
+Pinning this pageNum:6, page->pageNum:6
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :3 and fixcount :0
+yesframe we deque'd is: 3
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :3
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:6 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:6
+
+bucket 1:
+key :1 Frame Number:5
+key :1 Frame Number:4
+++++++++++ITERATION:	7+++++++++++++++
+
+Pinning this pageNum:7, page->pageNum:7
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :4 and fixcount :0
+yesframe we deque'd is: 4
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :5
+pfMap[1]
+ stores frame number :4
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:7 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:6
+
+bucket 1:
+key :1 Frame Number:7
+key :1 Frame Number:5
+++++++++++ITERATION:	8+++++++++++++++
+
+Pinning this pageNum:8, page->pageNum:8
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :5 and fixcount :0
+yesframe we deque'd is: 5
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :7
+pfMap[1]
+ stores frame number :5
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:8 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:6
+
+bucket 1:
+key :1 Frame Number:8
+key :1 Frame Number:7
+++++++++++ITERATION:	9+++++++++++++++
+
+Pinning this pageNum:9, page->pageNum:9
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :6 and fixcount :0
+yesframe we deque'd is: 6
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :6
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:9 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:9
+
+bucket 1:
+key :1 Frame Number:8
+key :1 Frame Number:7
+++++++++++ITERATION:	10+++++++++++++++
+
+Pinning this pageNum:10, page->pageNum:10
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :7 and fixcount :0
+yesframe we deque'd is: 7
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :8
+pfMap[1]
+ stores frame number :7
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:10 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:9
+
+bucket 1:
+key :1 Frame Number:10
+key :1 Frame Number:8
+++++++++++ITERATION:	11+++++++++++++++
+
+Pinning this pageNum:11, page->pageNum:11
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :8 and fixcount :0
+yesframe we deque'd is: 8
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :10
+pfMap[1]
+ stores frame number :8
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:11 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:9
+
+bucket 1:
+key :1 Frame Number:11
+key :1 Frame Number:10
+++++++++++ITERATION:	12+++++++++++++++
+
+Pinning this pageNum:12, page->pageNum:12
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :9 and fixcount :0
+yesframe we deque'd is: 9
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :9
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:12 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:12
+
+bucket 1:
+key :1 Frame Number:11
+key :1 Frame Number:10
+++++++++++ITERATION:	13+++++++++++++++
+
+Pinning this pageNum:13, page->pageNum:13
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :10 and fixcount :0
+yesframe we deque'd is: 10
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :11
+pfMap[1]
+ stores frame number :10
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:13 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:12
+
+bucket 1:
+key :1 Frame Number:13
+key :1 Frame Number:11
+++++++++++ITERATION:	14+++++++++++++++
+
+Pinning this pageNum:14, page->pageNum:14
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :11 and fixcount :0
+yesframe we deque'd is: 11
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :13
+pfMap[1]
+ stores frame number :11
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:14 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:12
+
+bucket 1:
+key :1 Frame Number:14
+key :1 Frame Number:13
+++++++++++ITERATION:	15+++++++++++++++
+
+Pinning this pageNum:15, page->pageNum:15
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :12 and fixcount :0
+yesframe we deque'd is: 12
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :12
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:15 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:15
+
+bucket 1:
+key :1 Frame Number:14
+key :1 Frame Number:13
+++++++++++ITERATION:	16+++++++++++++++
+
+Pinning this pageNum:16, page->pageNum:16
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :13 and fixcount :0
+yesframe we deque'd is: 13
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :14
+pfMap[1]
+ stores frame number :13
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:16 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:15
+
+bucket 1:
+key :1 Frame Number:16
+key :1 Frame Number:14
+++++++++++ITERATION:	17+++++++++++++++
+
+Pinning this pageNum:17, page->pageNum:17
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :14 and fixcount :0
+yesframe we deque'd is: 14
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :16
+pfMap[1]
+ stores frame number :14
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:17 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:15
+
+bucket 1:
+key :1 Frame Number:17
+key :1 Frame Number:16
+++++++++++ITERATION:	18+++++++++++++++
+
+Pinning this pageNum:18, page->pageNum:18
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :15 and fixcount :0
+yesframe we deque'd is: 15
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :15
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:18 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:18
+
+bucket 1:
+key :1 Frame Number:17
+key :1 Frame Number:16
+++++++++++ITERATION:	19+++++++++++++++
+
+Pinning this pageNum:19, page->pageNum:19
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :16 and fixcount :0
+yesframe we deque'd is: 16
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :17
+pfMap[1]
+ stores frame number :16
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:19 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:18
+
+bucket 1:
+key :1 Frame Number:19
+key :1 Frame Number:17
+++++++++++ITERATION:	20+++++++++++++++
+
+Pinning this pageNum:20, page->pageNum:20
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :17 and fixcount :0
+yesframe we deque'd is: 17
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :19
+pfMap[1]
+ stores frame number :17
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:20 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:18
+
+bucket 1:
+key :1 Frame Number:20
+key :1 Frame Number:19
+++++++++++ITERATION:	21+++++++++++++++
+
+Pinning this pageNum:21, page->pageNum:21
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :18 and fixcount :0
+yesframe we deque'd is: 18
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :18
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:21 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:21
+
+bucket 1:
+key :1 Frame Number:20
+key :1 Frame Number:19
+++++++++++ITERATION:	22+++++++++++++++
+
+Pinning this pageNum:22, page->pageNum:22
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :19 and fixcount :0
+yesframe we deque'd is: 19
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :20
+pfMap[1]
+ stores frame number :19
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:22 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:21
+
+bucket 1:
+key :1 Frame Number:22
+key :1 Frame Number:20
+++++++++++ITERATION:	23+++++++++++++++
+
+Pinning this pageNum:23, page->pageNum:23
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :20 and fixcount :0
+yesframe we deque'd is: 20
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :22
+pfMap[1]
+ stores frame number :20
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:23 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:21
+
+bucket 1:
+key :1 Frame Number:23
+key :1 Frame Number:22
+++++++++++ITERATION:	24+++++++++++++++
+
+Pinning this pageNum:24, page->pageNum:24
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :21 and fixcount :0
+yesframe we deque'd is: 21
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :21
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:24 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:24
+
+bucket 1:
+key :1 Frame Number:23
+key :1 Frame Number:22
+++++++++++ITERATION:	25+++++++++++++++
+
+Pinning this pageNum:25, page->pageNum:25
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :22 and fixcount :0
+yesframe we deque'd is: 22
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :23
+pfMap[1]
+ stores frame number :22
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:25 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:24
+
+bucket 1:
+key :1 Frame Number:25
+key :1 Frame Number:23
+++++++++++ITERATION:	26+++++++++++++++
+
+Pinning this pageNum:26, page->pageNum:26
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :23 and fixcount :0
+yesframe we deque'd is: 23
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :25
+pfMap[1]
+ stores frame number :23
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:26 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:24
+
+bucket 1:
+key :1 Frame Number:26
+key :1 Frame Number:25
+++++++++++ITERATION:	27+++++++++++++++
+
+Pinning this pageNum:27, page->pageNum:27
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :24 and fixcount :0
+yesframe we deque'd is: 24
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :24
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:27 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:27
+
+bucket 1:
+key :1 Frame Number:26
+key :1 Frame Number:25
+++++++++++ITERATION:	28+++++++++++++++
+
+Pinning this pageNum:28, page->pageNum:28
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :25 and fixcount :0
+yesframe we deque'd is: 25
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :26
+pfMap[1]
+ stores frame number :25
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:28 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:27
+
+bucket 1:
+key :1 Frame Number:28
+key :1 Frame Number:26
+++++++++++ITERATION:	29+++++++++++++++
+
+Pinning this pageNum:29, page->pageNum:29
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :26 and fixcount :0
+yesframe we deque'd is: 26
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :28
+pfMap[1]
+ stores frame number :26
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:29 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:27
+
+bucket 1:
+key :1 Frame Number:29
+key :1 Frame Number:28
+++++++++++ITERATION:	30+++++++++++++++
+
+Pinning this pageNum:30, page->pageNum:30
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :27 and fixcount :0
+yesframe we deque'd is: 27
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :27
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:30 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:30
+
+bucket 1:
+key :1 Frame Number:29
+key :1 Frame Number:28
+++++++++++ITERATION:	31+++++++++++++++
+
+Pinning this pageNum:31, page->pageNum:31
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :28 and fixcount :0
+yesframe we deque'd is: 28
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :29
+pfMap[1]
+ stores frame number :28
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:31 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:30
+
+bucket 1:
+key :1 Frame Number:31
+key :1 Frame Number:29
+++++++++++ITERATION:	32+++++++++++++++
+
+Pinning this pageNum:32, page->pageNum:32
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :29 and fixcount :0
+yesframe we deque'd is: 29
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :31
+pfMap[1]
+ stores frame number :29
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:32 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:30
+
+bucket 1:
+key :1 Frame Number:32
+key :1 Frame Number:31
+++++++++++ITERATION:	33+++++++++++++++
+
+Pinning this pageNum:33, page->pageNum:33
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :30 and fixcount :0
+yesframe we deque'd is: 30
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :30
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:33 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:33
+
+bucket 1:
+key :1 Frame Number:32
+key :1 Frame Number:31
+++++++++++ITERATION:	34+++++++++++++++
+
+Pinning this pageNum:34, page->pageNum:34
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :31 and fixcount :0
+yesframe we deque'd is: 31
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :32
+pfMap[1]
+ stores frame number :31
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:34 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:33
+
+bucket 1:
+key :1 Frame Number:34
+key :1 Frame Number:32
+++++++++++ITERATION:	35+++++++++++++++
+
+Pinning this pageNum:35, page->pageNum:35
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :32 and fixcount :0
+yesframe we deque'd is: 32
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :34
+pfMap[1]
+ stores frame number :32
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:35 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:33
+
+bucket 1:
+key :1 Frame Number:35
+key :1 Frame Number:34
+++++++++++ITERATION:	36+++++++++++++++
+
+Pinning this pageNum:36, page->pageNum:36
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :33 and fixcount :0
+yesframe we deque'd is: 33
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :33
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:36 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:36
+
+bucket 1:
+key :1 Frame Number:35
+key :1 Frame Number:34
+++++++++++ITERATION:	37+++++++++++++++
+
+Pinning this pageNum:37, page->pageNum:37
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :34 and fixcount :0
+yesframe we deque'd is: 34
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :35
+pfMap[1]
+ stores frame number :34
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:37 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:36
+
+bucket 1:
+key :1 Frame Number:37
+key :1 Frame Number:35
+++++++++++ITERATION:	38+++++++++++++++
+
+Pinning this pageNum:38, page->pageNum:38
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :35 and fixcount :0
+yesframe we deque'd is: 35
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :37
+pfMap[1]
+ stores frame number :35
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:38 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:36
+
+bucket 1:
+key :1 Frame Number:38
+key :1 Frame Number:37
+++++++++++ITERATION:	39+++++++++++++++
+
+Pinning this pageNum:39, page->pageNum:39
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :36 and fixcount :0
+yesframe we deque'd is: 36
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :36
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:39 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:39
+
+bucket 1:
+key :1 Frame Number:38
+key :1 Frame Number:37
+++++++++++ITERATION:	40+++++++++++++++
+
+Pinning this pageNum:40, page->pageNum:40
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :37 and fixcount :0
+yesframe we deque'd is: 37
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :38
+pfMap[1]
+ stores frame number :37
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:40 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:39
+
+bucket 1:
+key :1 Frame Number:40
+key :1 Frame Number:38
+++++++++++ITERATION:	41+++++++++++++++
+
+Pinning this pageNum:41, page->pageNum:41
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :38 and fixcount :0
+yesframe we deque'd is: 38
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :40
+pfMap[1]
+ stores frame number :38
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:41 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:39
+
+bucket 1:
+key :1 Frame Number:41
+key :1 Frame Number:40
+++++++++++ITERATION:	42+++++++++++++++
+
+Pinning this pageNum:42, page->pageNum:42
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :39 and fixcount :0
+yesframe we deque'd is: 39
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :39
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:42 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:42
+
+bucket 1:
+key :1 Frame Number:41
+key :1 Frame Number:40
+++++++++++ITERATION:	43+++++++++++++++
+
+Pinning this pageNum:43, page->pageNum:43
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :40 and fixcount :0
+yesframe we deque'd is: 40
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :41
+pfMap[1]
+ stores frame number :40
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:43 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:42
+
+bucket 1:
+key :1 Frame Number:43
+key :1 Frame Number:41
+++++++++++ITERATION:	44+++++++++++++++
+
+Pinning this pageNum:44, page->pageNum:44
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :41 and fixcount :0
+yesframe we deque'd is: 41
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :43
+pfMap[1]
+ stores frame number :41
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:44 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:42
+
+bucket 1:
+key :1 Frame Number:44
+key :1 Frame Number:43
+++++++++++ITERATION:	45+++++++++++++++
+
+Pinning this pageNum:45, page->pageNum:45
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :42 and fixcount :0
+yesframe we deque'd is: 42
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :42
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:45 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:45
+
+bucket 1:
+key :1 Frame Number:44
+key :1 Frame Number:43
+++++++++++ITERATION:	46+++++++++++++++
+
+Pinning this pageNum:46, page->pageNum:46
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :43 and fixcount :0
+yesframe we deque'd is: 43
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :44
+pfMap[1]
+ stores frame number :43
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:46 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:45
+
+bucket 1:
+key :1 Frame Number:46
+key :1 Frame Number:44
+++++++++++ITERATION:	47+++++++++++++++
+
+Pinning this pageNum:47, page->pageNum:47
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :44 and fixcount :0
+yesframe we deque'd is: 44
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :46
+pfMap[1]
+ stores frame number :44
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:47 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:45
+
+bucket 1:
+key :1 Frame Number:47
+key :1 Frame Number:46
+++++++++++ITERATION:	48+++++++++++++++
+
+Pinning this pageNum:48, page->pageNum:48
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :45 and fixcount :0
+yesframe we deque'd is: 45
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :45
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:48 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:48
+
+bucket 1:
+key :1 Frame Number:47
+key :1 Frame Number:46
+++++++++++ITERATION:	49+++++++++++++++
+
+Pinning this pageNum:49, page->pageNum:49
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :46 and fixcount :0
+yesframe we deque'd is: 46
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :47
+pfMap[1]
+ stores frame number :46
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:49 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:48
+
+bucket 1:
+key :1 Frame Number:49
+key :1 Frame Number:47
+++++++++++ITERATION:	50+++++++++++++++
+
+Pinning this pageNum:50, page->pageNum:50
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :47 and fixcount :0
+yesframe we deque'd is: 47
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :49
+pfMap[1]
+ stores frame number :47
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:50 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:48
+
+bucket 1:
+key :1 Frame Number:50
+key :1 Frame Number:49
+++++++++++ITERATION:	51+++++++++++++++
+
+Pinning this pageNum:51, page->pageNum:51
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :48 and fixcount :0
+yesframe we deque'd is: 48
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :48
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:51 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:51
+
+bucket 1:
+key :1 Frame Number:50
+key :1 Frame Number:49
+++++++++++ITERATION:	52+++++++++++++++
+
+Pinning this pageNum:52, page->pageNum:52
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :49 and fixcount :0
+yesframe we deque'd is: 49
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :50
+pfMap[1]
+ stores frame number :49
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:52 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:51
+
+bucket 1:
+key :1 Frame Number:52
+key :1 Frame Number:50
+++++++++++ITERATION:	53+++++++++++++++
+
+Pinning this pageNum:53, page->pageNum:53
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :50 and fixcount :0
+yesframe we deque'd is: 50
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :52
+pfMap[1]
+ stores frame number :50
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:53 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:51
+
+bucket 1:
+key :1 Frame Number:53
+key :1 Frame Number:52
+++++++++++ITERATION:	54+++++++++++++++
+
+Pinning this pageNum:54, page->pageNum:54
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :51 and fixcount :0
+yesframe we deque'd is: 51
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :51
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:54 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:54
+
+bucket 1:
+key :1 Frame Number:53
+key :1 Frame Number:52
+++++++++++ITERATION:	55+++++++++++++++
+
+Pinning this pageNum:55, page->pageNum:55
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :52 and fixcount :0
+yesframe we deque'd is: 52
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :53
+pfMap[1]
+ stores frame number :52
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:55 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:54
+
+bucket 1:
+key :1 Frame Number:55
+key :1 Frame Number:53
+++++++++++ITERATION:	56+++++++++++++++
+
+Pinning this pageNum:56, page->pageNum:56
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :53 and fixcount :0
+yesframe we deque'd is: 53
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :55
+pfMap[1]
+ stores frame number :53
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:56 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:54
+
+bucket 1:
+key :1 Frame Number:56
+key :1 Frame Number:55
+++++++++++ITERATION:	57+++++++++++++++
+
+Pinning this pageNum:57, page->pageNum:57
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :54 and fixcount :0
+yesframe we deque'd is: 54
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :54
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:57 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:57
+
+bucket 1:
+key :1 Frame Number:56
+key :1 Frame Number:55
+++++++++++ITERATION:	58+++++++++++++++
+
+Pinning this pageNum:58, page->pageNum:58
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :55 and fixcount :0
+yesframe we deque'd is: 55
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :56
+pfMap[1]
+ stores frame number :55
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:58 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:57
+
+bucket 1:
+key :1 Frame Number:58
+key :1 Frame Number:56
+++++++++++ITERATION:	59+++++++++++++++
+
+Pinning this pageNum:59, page->pageNum:59
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :56 and fixcount :0
+yesframe we deque'd is: 56
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :58
+pfMap[1]
+ stores frame number :56
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:59 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:57
+
+bucket 1:
+key :1 Frame Number:59
+key :1 Frame Number:58
+++++++++++ITERATION:	60+++++++++++++++
+
+Pinning this pageNum:60, page->pageNum:60
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :57 and fixcount :0
+yesframe we deque'd is: 57
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :57
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:60 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:60
+
+bucket 1:
+key :1 Frame Number:59
+key :1 Frame Number:58
+++++++++++ITERATION:	61+++++++++++++++
+
+Pinning this pageNum:61, page->pageNum:61
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :58 and fixcount :0
+yesframe we deque'd is: 58
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :59
+pfMap[1]
+ stores frame number :58
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:61 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:60
+
+bucket 1:
+key :1 Frame Number:61
+key :1 Frame Number:59
+++++++++++ITERATION:	62+++++++++++++++
+
+Pinning this pageNum:62, page->pageNum:62
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :59 and fixcount :0
+yesframe we deque'd is: 59
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :61
+pfMap[1]
+ stores frame number :59
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:62 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:60
+
+bucket 1:
+key :1 Frame Number:62
+key :1 Frame Number:61
+++++++++++ITERATION:	63+++++++++++++++
+
+Pinning this pageNum:63, page->pageNum:63
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :60 and fixcount :0
+yesframe we deque'd is: 60
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :60
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:63 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:63
+
+bucket 1:
+key :1 Frame Number:62
+key :1 Frame Number:61
+++++++++++ITERATION:	64+++++++++++++++
+
+Pinning this pageNum:64, page->pageNum:64
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :61 and fixcount :0
+yesframe we deque'd is: 61
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :62
+pfMap[1]
+ stores frame number :61
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:64 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:63
+
+bucket 1:
+key :1 Frame Number:64
+key :1 Frame Number:62
+++++++++++ITERATION:	65+++++++++++++++
+
+Pinning this pageNum:65, page->pageNum:65
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :62 and fixcount :0
+yesframe we deque'd is: 62
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :64
+pfMap[1]
+ stores frame number :62
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:65 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:63
+
+bucket 1:
+key :1 Frame Number:65
+key :1 Frame Number:64
+++++++++++ITERATION:	66+++++++++++++++
+
+Pinning this pageNum:66, page->pageNum:66
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :63 and fixcount :0
+yesframe we deque'd is: 63
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :63
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:66 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:66
+
+bucket 1:
+key :1 Frame Number:65
+key :1 Frame Number:64
+++++++++++ITERATION:	67+++++++++++++++
+
+Pinning this pageNum:67, page->pageNum:67
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :64 and fixcount :0
+yesframe we deque'd is: 64
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :65
+pfMap[1]
+ stores frame number :64
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:67 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:66
+
+bucket 1:
+key :1 Frame Number:67
+key :1 Frame Number:65
+++++++++++ITERATION:	68+++++++++++++++
+
+Pinning this pageNum:68, page->pageNum:68
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :65 and fixcount :0
+yesframe we deque'd is: 65
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :67
+pfMap[1]
+ stores frame number :65
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:68 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:66
+
+bucket 1:
+key :1 Frame Number:68
+key :1 Frame Number:67
+++++++++++ITERATION:	69+++++++++++++++
+
+Pinning this pageNum:69, page->pageNum:69
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :66 and fixcount :0
+yesframe we deque'd is: 66
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :66
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:69 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:69
+
+bucket 1:
+key :1 Frame Number:68
+key :1 Frame Number:67
+++++++++++ITERATION:	70+++++++++++++++
+
+Pinning this pageNum:70, page->pageNum:70
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :67 and fixcount :0
+yesframe we deque'd is: 67
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :68
+pfMap[1]
+ stores frame number :67
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:70 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:69
+
+bucket 1:
+key :1 Frame Number:70
+key :1 Frame Number:68
+++++++++++ITERATION:	71+++++++++++++++
+
+Pinning this pageNum:71, page->pageNum:71
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :68 and fixcount :0
+yesframe we deque'd is: 68
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :70
+pfMap[1]
+ stores frame number :68
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:71 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:69
+
+bucket 1:
+key :1 Frame Number:71
+key :1 Frame Number:70
+++++++++++ITERATION:	72+++++++++++++++
+
+Pinning this pageNum:72, page->pageNum:72
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :69 and fixcount :0
+yesframe we deque'd is: 69
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :69
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:72 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:72
+
+bucket 1:
+key :1 Frame Number:71
+key :1 Frame Number:70
+++++++++++ITERATION:	73+++++++++++++++
+
+Pinning this pageNum:73, page->pageNum:73
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :70 and fixcount :0
+yesframe we deque'd is: 70
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :71
+pfMap[1]
+ stores frame number :70
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:73 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:72
+
+bucket 1:
+key :1 Frame Number:73
+key :1 Frame Number:71
+++++++++++ITERATION:	74+++++++++++++++
+
+Pinning this pageNum:74, page->pageNum:74
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :71 and fixcount :0
+yesframe we deque'd is: 71
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :73
+pfMap[1]
+ stores frame number :71
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:74 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:72
+
+bucket 1:
+key :1 Frame Number:74
+key :1 Frame Number:73
+++++++++++ITERATION:	75+++++++++++++++
+
+Pinning this pageNum:75, page->pageNum:75
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :72 and fixcount :0
+yesframe we deque'd is: 72
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :72
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:75 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:75
+
+bucket 1:
+key :1 Frame Number:74
+key :1 Frame Number:73
+++++++++++ITERATION:	76+++++++++++++++
+
+Pinning this pageNum:76, page->pageNum:76
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :73 and fixcount :0
+yesframe we deque'd is: 73
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :74
+pfMap[1]
+ stores frame number :73
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:76 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:75
+
+bucket 1:
+key :1 Frame Number:76
+key :1 Frame Number:74
+++++++++++ITERATION:	77+++++++++++++++
+
+Pinning this pageNum:77, page->pageNum:77
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :74 and fixcount :0
+yesframe we deque'd is: 74
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :76
+pfMap[1]
+ stores frame number :74
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:77 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:75
+
+bucket 1:
+key :1 Frame Number:77
+key :1 Frame Number:76
+++++++++++ITERATION:	78+++++++++++++++
+
+Pinning this pageNum:78, page->pageNum:78
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :75 and fixcount :0
+yesframe we deque'd is: 75
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :75
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:78 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:78
+
+bucket 1:
+key :1 Frame Number:77
+key :1 Frame Number:76
+++++++++++ITERATION:	79+++++++++++++++
+
+Pinning this pageNum:79, page->pageNum:79
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :76 and fixcount :0
+yesframe we deque'd is: 76
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :77
+pfMap[1]
+ stores frame number :76
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:79 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:78
+
+bucket 1:
+key :1 Frame Number:79
+key :1 Frame Number:77
+++++++++++ITERATION:	80+++++++++++++++
+
+Pinning this pageNum:80, page->pageNum:80
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :77 and fixcount :0
+yesframe we deque'd is: 77
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :79
+pfMap[1]
+ stores frame number :77
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:80 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:78
+
+bucket 1:
+key :1 Frame Number:80
+key :1 Frame Number:79
+++++++++++ITERATION:	81+++++++++++++++
+
+Pinning this pageNum:81, page->pageNum:81
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :78 and fixcount :0
+yesframe we deque'd is: 78
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :78
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:81 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:81
+
+bucket 1:
+key :1 Frame Number:80
+key :1 Frame Number:79
+++++++++++ITERATION:	82+++++++++++++++
+
+Pinning this pageNum:82, page->pageNum:82
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :79 and fixcount :0
+yesframe we deque'd is: 79
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :80
+pfMap[1]
+ stores frame number :79
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:82 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:81
+
+bucket 1:
+key :1 Frame Number:82
+key :1 Frame Number:80
+++++++++++ITERATION:	83+++++++++++++++
+
+Pinning this pageNum:83, page->pageNum:83
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :80 and fixcount :0
+yesframe we deque'd is: 80
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :82
+pfMap[1]
+ stores frame number :80
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:83 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:81
+
+bucket 1:
+key :1 Frame Number:83
+key :1 Frame Number:82
+++++++++++ITERATION:	84+++++++++++++++
+
+Pinning this pageNum:84, page->pageNum:84
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :81 and fixcount :0
+yesframe we deque'd is: 81
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :81
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:84 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:84
+
+bucket 1:
+key :1 Frame Number:83
+key :1 Frame Number:82
+++++++++++ITERATION:	85+++++++++++++++
+
+Pinning this pageNum:85, page->pageNum:85
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :82 and fixcount :0
+yesframe we deque'd is: 82
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :83
+pfMap[1]
+ stores frame number :82
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:85 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:84
+
+bucket 1:
+key :1 Frame Number:85
+key :1 Frame Number:83
+++++++++++ITERATION:	86+++++++++++++++
+
+Pinning this pageNum:86, page->pageNum:86
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :83 and fixcount :0
+yesframe we deque'd is: 83
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :85
+pfMap[1]
+ stores frame number :83
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:86 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:84
+
+bucket 1:
+key :1 Frame Number:86
+key :1 Frame Number:85
+++++++++++ITERATION:	87+++++++++++++++
+
+Pinning this pageNum:87, page->pageNum:87
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :84 and fixcount :0
+yesframe we deque'd is: 84
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :84
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:87 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:87
+
+bucket 1:
+key :1 Frame Number:86
+key :1 Frame Number:85
+++++++++++ITERATION:	88+++++++++++++++
+
+Pinning this pageNum:88, page->pageNum:88
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :85 and fixcount :0
+yesframe we deque'd is: 85
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :86
+pfMap[1]
+ stores frame number :85
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:88 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:87
+
+bucket 1:
+key :1 Frame Number:88
+key :1 Frame Number:86
+++++++++++ITERATION:	89+++++++++++++++
+
+Pinning this pageNum:89, page->pageNum:89
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :86 and fixcount :0
+yesframe we deque'd is: 86
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :88
+pfMap[1]
+ stores frame number :86
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:89 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:87
+
+bucket 1:
+key :1 Frame Number:89
+key :1 Frame Number:88
+++++++++++ITERATION:	90+++++++++++++++
+
+Pinning this pageNum:90, page->pageNum:90
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :87 and fixcount :0
+yesframe we deque'd is: 87
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :87
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:90 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:90
+
+bucket 1:
+key :1 Frame Number:89
+key :1 Frame Number:88
+++++++++++ITERATION:	91+++++++++++++++
+
+Pinning this pageNum:91, page->pageNum:91
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :88 and fixcount :0
+yesframe we deque'd is: 88
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :89
+pfMap[1]
+ stores frame number :88
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:91 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:90
+
+bucket 1:
+key :1 Frame Number:91
+key :1 Frame Number:89
+++++++++++ITERATION:	92+++++++++++++++
+
+Pinning this pageNum:92, page->pageNum:92
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :89 and fixcount :0
+yesframe we deque'd is: 89
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :91
+pfMap[1]
+ stores frame number :89
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:92 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:90
+
+bucket 1:
+key :1 Frame Number:92
+key :1 Frame Number:91
+++++++++++ITERATION:	93+++++++++++++++
+
+Pinning this pageNum:93, page->pageNum:93
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :90 and fixcount :0
+yesframe we deque'd is: 90
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :90
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:93 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:93
+
+bucket 1:
+key :1 Frame Number:92
+key :1 Frame Number:91
+++++++++++ITERATION:	94+++++++++++++++
+
+Pinning this pageNum:94, page->pageNum:94
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :91 and fixcount :0
+yesframe we deque'd is: 91
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :92
+pfMap[1]
+ stores frame number :91
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:94 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:93
+
+bucket 1:
+key :1 Frame Number:94
+key :1 Frame Number:92
+++++++++++ITERATION:	95+++++++++++++++
+
+Pinning this pageNum:95, page->pageNum:95
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :92 and fixcount :0
+yesframe we deque'd is: 92
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :94
+pfMap[1]
+ stores frame number :92
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:95 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:93
+
+bucket 1:
+key :1 Frame Number:95
+key :1 Frame Number:94
+++++++++++ITERATION:	96+++++++++++++++
+
+Pinning this pageNum:96, page->pageNum:96
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :93 and fixcount :0
+yesframe we deque'd is: 93
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :93
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:96 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:96
+
+bucket 1:
+key :1 Frame Number:95
+key :1 Frame Number:94
+++++++++++ITERATION:	97+++++++++++++++
+
+Pinning this pageNum:97, page->pageNum:97
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :94 and fixcount :0
+yesframe we deque'd is: 94
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :95
+pfMap[1]
+ stores frame number :94
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:97 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:96
+
+bucket 1:
+key :1 Frame Number:97
+key :1 Frame Number:95
+++++++++++ITERATION:	98+++++++++++++++
+
+Pinning this pageNum:98, page->pageNum:98
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :95 and fixcount :0
+yesframe we deque'd is: 95
+Is Dirty==================
+Entered
+line:258pfMap[1]
+ stores frame number :97
+pfMap[1]
+ stores frame number :95
+done
+condition 3
+RE-INIT SUCCESS
+
+KEY IS not -1.new_elt->next->key:1   new_elt->key:1after inserting frame number:98 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:96
+
+bucket 1:
+key :1 Frame Number:98
+key :1 Frame Number:97
+++++++++++ITERATION:	99+++++++++++++++
+
+Pinning this pageNum:99, page->pageNum:99
+
+appendsuccessful
+
+
+TEST
+
+Entering evict
+
+DEBUG:Line:434 function:inside evict
+last added frame value is :96 and fixcount :0
+yesframe we deque'd is: 96
+Is Dirty==================
+Entered
+line:258pfMap[0]
+ stores frame number :96
+done
+Condition 2
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:99 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:99
+
+bucket 1:
+key :1 Frame Number:98
+key :1 Frame Number:97error in print
+
+Pinning this pageNum:0, page->pageNum:0
+
+
+TEST
+
+RE-INIT SUCCESS
+
+new_elt->key:0after inserting frame number:0 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0iteration:0:0
+error in print
+[test_assign2_1.c-Testing FIFO page replacement-L197-03:22:50] OK: expected <[0 0],[-1 0],[-1 0]> and was <[0 0],[-1 0],[-1 0]>: check pool content
+
+Pinning this pageNum:1, page->pageNum:1
+
+
+TEST
+
+RE-INIT SUCCESS
+
+new_elt->key:1after inserting frame number:1 que content is:
+
+
+PRINT HASHMAP
+
+
+
+bucket 0:
+key :0 Frame Number:0
+
+bucket 1:
+key :1 Frame Number:1iteration:1:1
+error in print
+[test_assign2_1.c-Testing FIFO page replacement-L197-03:22:50] FAILED: expected <[0 0],[1 0],[-1 0]> but was <[1 0],[0 0],[-1 0]>: check pool content

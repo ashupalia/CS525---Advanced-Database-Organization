@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSERT_EQUALS_POOL	clock_test.c	16;"	d	file:
+ASSERT_EQUALS_POOL	test_assign2_1.c	16;"	d	file:
+ASSERT_EQUALS_POOL	test_clock2_2.c	16;"	d	file:
+METADATA_SIZE	storage_mgr.c	10;"	d	file:
+Page	buffer_mgr.c	/^typedef struct Page{$/;"	s	file:
+Page	buffer_mgr.c	/^} Page;$/;"	t	typeref:struct:Page	file:
+PageFrame	buffer_mgr.c	/^typedef struct PageFrame{$/;"	s	file:
+PageFrame	buffer_mgr.c	/^} PageFrame;$/;"	t	typeref:struct:PageFrame	file:
+RC_message	dberror.c	/^char *RC_message;$/;"	v
+appendEmptyBlock	storage_mgr.c	/^ RC appendEmptyBlock (SM_FileHandle *fHandle)$/;"	f
+checkDummyPages	clock_test.c	/^checkDummyPages(BM_BufferPool *bm, int num)$/;"	f
+checkDummyPages	test_assign2_1.c	/^checkDummyPages(BM_BufferPool *bm, int num)$/;"	f
+checkDummyPages	test_clock2_2.c	/^checkDummyPages(BM_BufferPool *bm, int num)$/;"	f
+clockUsed	buffer_mgr.c	/^    bool clockUsed;$/;"	m	struct:Page	file:
+closePageFile	storage_mgr.c	/^RC closePageFile (SM_FileHandle *fHandle)$/;"	f
+createDummyPages	clock_test.c	/^createDummyPages(BM_BufferPool *bm, int num)$/;"	f
+createDummyPages	test_assign2_1.c	/^createDummyPages(BM_BufferPool *bm, int num)$/;"	f
+createDummyPages	test_clock2_2.c	/^createDummyPages(BM_BufferPool *bm, int num)$/;"	f
+createPageFile	storage_mgr.c	/^RC createPageFile (char *fileName)$/;"	f
+currentActivePages	buffer_mgr.c	/^    int currentActivePages;$/;"	m	struct:PageFrame	file:
+data	buffer_mgr.c	/^    SM_PageHandle data;$/;"	m	struct:Page	file:
+destroyPageFile	storage_mgr.c	/^RC destroyPageFile (char *fileName)$/;"	f
+ensureCapacity	storage_mgr.c	/^ RC ensureCapacity (int numberOfPages, SM_FileHandle *fHandle)$/;"	f
+errorMessage	dberror.c	/^errorMessage (RC error)$/;"	f
+firstPage	buffer_mgr.c	/^    Page *firstPage;$/;"	m	struct:PageFrame	file:
+fixCount	buffer_mgr.c	/^    int fixCount;$/;"	m	struct:Page	file:
+forceFlushPool	buffer_mgr.c	/^RC forceFlushPool(BM_BufferPool *const bm)$/;"	f
+forcePage	buffer_mgr.c	/^RC forcePage (BM_BufferPool *const bm, BM_PageHandle *const page)$/;"	f
+getBlockPos	storage_mgr.c	/^ int getBlockPos (SM_FileHandle *fHandle)$/;"	f
+getDirtyFlags	buffer_mgr.c	/^bool *getDirtyFlags (BM_BufferPool *const bm)$/;"	f
+getFixCounts	buffer_mgr.c	/^int *getFixCounts (BM_BufferPool *const bm)$/;"	f
+getFrameContents	buffer_mgr.c	/^PageNumber *getFrameContents (BM_BufferPool *const bm)$/;"	f
+getNumReadIO	buffer_mgr.c	/^int getNumReadIO (BM_BufferPool *const bm)$/;"	f
+getNumWriteIO	buffer_mgr.c	/^int getNumWriteIO (BM_BufferPool *const bm)$/;"	f
+initBufferPool	buffer_mgr.c	/^RC initBufferPool(BM_BufferPool *const bm, const char *const pageFileName,$/;"	f
+initStorageManager	storage_mgr.c	/^void initStorageManager (void)$/;"	f
+isDirty	buffer_mgr.c	/^    bool isDirty;$/;"	m	struct:Page	file:
+lastPage	buffer_mgr.c	/^    Page *lastPage;$/;"	m	struct:PageFrame	file:
+lruHelper	buffer_mgr.c	/^    int *lruHelper;$/;"	m	struct:PageFrame	file:
+main	clock_test.c	/^main (void) $/;"	f
+main	test_assign2_1.c	/^main (void) $/;"	f
+main	test_clock2_2.c	/^main (void) $/;"	f
+markDirty	buffer_mgr.c	/^RC markDirty (BM_BufferPool *const bm, BM_PageHandle *const page)$/;"	f
+movePageToNext	buffer_mgr.c	/^Page* movePageToNext(PageFrame *frame, Page *curPage)$/;"	f
+nextPage	buffer_mgr.c	/^    struct Page *nextPage;$/;"	m	struct:Page	typeref:struct:Page::Page	file:
+numReadIO	buffer_mgr.c	/^    int numReadIO;$/;"	m	struct:PageFrame	file:
+numWriteIO	buffer_mgr.c	/^    int numWriteIO;$/;"	m	struct:PageFrame	file:
+openPageFile	storage_mgr.c	/^RC openPageFile (char *fileName, SM_FileHandle *fHandle)$/;"	f
+pageArray	buffer_mgr.c	/^    Page *pageArray;$/;"	m	struct:PageFrame	file:
+pageNum	buffer_mgr.c	/^    PageNumber pageNum;$/;"	m	struct:Page	file:
+pinPage	buffer_mgr.c	/^RC pinPage (BM_BufferPool *const bm, BM_PageHandle *const page,$/;"	f
+prevPage	buffer_mgr.c	/^    struct Page *prevPage;$/;"	m	struct:Page	typeref:struct:Page::Page	file:
+printError	dberror.c	/^printError (RC error)$/;"	f
+printHelperBuffer	buffer_mgr.c	/^void printHelperBuffer(BM_BufferPool *const bm)$/;"	f
+printPageBuffer	buffer_mgr.c	/^void printPageBuffer(BM_BufferPool *const bm)$/;"	f
+printPageContent	buffer_mgr_stat.c	/^printPageContent (BM_PageHandle *const page)$/;"	f
+printPoolContent	buffer_mgr_stat.c	/^printPoolContent (BM_BufferPool *const bm)$/;"	f
+printStrat	buffer_mgr_stat.c	/^printStrat (BM_BufferPool *const bm)$/;"	f
+readBlock	storage_mgr.c	/^ RC readBlock (int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
+readCurrentBlock	storage_mgr.c	/^ RC readCurrentBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
+readFirstBlock	storage_mgr.c	/^ RC readFirstBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
+readLastBlock	storage_mgr.c	/^ RC readLastBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
+readNextBlock	storage_mgr.c	/^ RC readNextBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
+readPreviousBlock	storage_mgr.c	/^ RC readPreviousBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
+shutdownBufferPool	buffer_mgr.c	/^RC shutdownBufferPool(BM_BufferPool *const bm)$/;"	f
+sprintPageContent	buffer_mgr_stat.c	/^sprintPageContent (BM_PageHandle *const page)$/;"	f
+sprintPoolContent	buffer_mgr_stat.c	/^sprintPoolContent (BM_BufferPool *const bm)$/;"	f
+testCLOCK	clock_test.c	/^testCLOCK (void)$/;"	f
+testCLOCK	test_clock2_2.c	/^testCLOCK ()$/;"	f
+testCreatingAndReadingDummyPages	clock_test.c	/^testCreatingAndReadingDummyPages (void)$/;"	f
+testCreatingAndReadingDummyPages	test_assign2_1.c	/^testCreatingAndReadingDummyPages (void)$/;"	f
+testCreatingAndReadingDummyPages	test_clock2_2.c	/^testCreatingAndReadingDummyPages (void)$/;"	f
+testFIFO	test_assign2_1.c	/^testFIFO ()$/;"	f
+testLRU	test_assign2_1.c	/^testLRU (void)$/;"	f
+testName	clock_test.c	/^char *testName;$/;"	v
+testName	test_assign2_1.c	/^char *testName;$/;"	v
+testName	test_clock2_2.c	/^char *testName;$/;"	v
+testReadPage	clock_test.c	/^testReadPage ()$/;"	f
+testReadPage	test_assign2_1.c	/^testReadPage ()$/;"	f
+testReadPage	test_clock2_2.c	/^testReadPage ()$/;"	f
+unpinPage	buffer_mgr.c	/^RC unpinPage (BM_BufferPool *const bm, BM_PageHandle *const page)$/;"	f
+writeBlock	storage_mgr.c	/^ RC writeBlock (int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
+writeCurrentBlock	storage_mgr.c	/^ RC writeCurrentBlock (SM_FileHandle *fHandle, SM_PageHandle memPage)$/;"	f
